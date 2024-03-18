@@ -1,0 +1,102 @@
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    gap: 30px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+
+header a:hover {
+    color: red;
+}
+
+header .registar {
+    color: red;
+    border-radius: 25px;
+    border: 2px solid red;
+    padding: 8px;
+}
+
+.intro {
+    background-image: url('./img/image\ 4.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero {
+    position: relative;
+    position: top;
+}
+
+.intro .container {
+    display: flex;
+    /* text-align: center; */
+    align-items: ;
+}
+
+.button1 {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    border: 10px;
+    padding: 15px;
+}
+
+.words {
+    font-size: 50px;
+    color: white;
+    align-items: ;
+}
+
+.tepa {
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+}
+
+.bosh {
+    text-align: center;
+    font-size: 40px;
+}
+
+.past {
+    display: flex;
+}
+
+.tepa1 {
+    gap: 15px;
+    display: flex;
+    margin: 20px;
+    text-align: center;
+}
+
+.intro3 {
+    background-color: aqua;
+}
+
+.header2 {
+    background-color: black;
+}
+
+.header2 a {
+    color: white;
+}
